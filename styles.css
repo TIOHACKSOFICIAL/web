@@ -1,0 +1,177 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('resours/wallpaper_tio_hacks2-ezgif.com-video-to-gif-converter.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    color: #ffffff; /* Color de texto */
+    opacity: 0.90; /* Opacidad del fondo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Ajusta el relleno según sea necesario */
+    text-align: center; /* Centra los elementos internamente */
+}
+
+.sign-in {
+    margin-left: auto; /* Mueve el botón de "Sign In" a la derecha */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center; /* Centra los elementos de la lista horizontalmente */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: rgba(4, 17, 29, 0.74); /* Color de fondo con opacidad */
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tagline {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Benefits Section */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.benefit-item {
+    padding: 30px;
+    background-color: rgba(12, 14, 19, 0.911); /* Fondo blanco con opacidad */
+    border-radius: 25px;
+    box-shadow: 0 0 40px rgb(255, 255, 255);
+}
+
+.benefit-item img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+/* Cheats Section */
+.cheats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.cheat-item {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo blanco con opacidad */
+    border-radius: 25px;
+    box-shadow: 0 0 40px rgb(255, 255, 255);
+}
+
+/* Video Reviews Section */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Pricing Section */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.pricing-item {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo blanco con opacidad */
+    border-radius: 25px;
+    box-shadow: 0 0 40px rgb(255, 255, 255);
+}
+
+.pricing-item h3 {
+    margin-bottom: 20px;
+}
+
+.pricing-item p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.877); /* Color de fondo con opacidad */
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------------------*/

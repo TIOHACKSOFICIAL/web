@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('resours/wallpaper_tio_hacks2-ezgif.com-video-to-gif-converter.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    color: #ffffff; /* Color de texto */
+    opacity: 0.90; /* Opacidad del fondo */
+}
+/* Estilos mejorados para la página de login */
+
+/* Contenedor del formulario */
+.hangar-form {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 350px; /* Reduce el tamaño máximo del contenedor */
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #1110108e;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(35, 170, 248, 0.952);
+    box-sizing: border-box;
+}
+
+/* Centrar el contenido verticalmente */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+/* Estilo actualizado para la etiqueta */
+.hangarFormLabel-root {
+    font: normal 75% Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    display: flex; /* Alinea el texto y el icono horizontalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    color: #f80c0c !important;
+    margin-bottom: 5px; /* Añade espacio debajo de las etiquetas */
+}
+
+/* Estilo para la imagen del logo */
+.hangar-logo {
+    max-width: 80%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+}
+
+/* Estilo actualizado para el título "Login" */
+.hangar-auth_title {
+    font-size: 36px; /* Ajusta el tamaño del título */
+    margin-top: 20px; /* Añade espacio entre la imagen y el título */
+    user-select: none;
+}
+
+/* Estilo mejorado para los campos de entrada */
+.hangarInputBase-root {
+    position: relative;
+    margin-bottom: 20px; /* Añade espacio entre los campos de entrada */
+}
+
+.hangarInputBase-input {
+    font: normal 75% Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    line-height: 1.4375em;
+    height: 40px; /* Ajusta la altura de los campos de entrada */
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    border: 1px solid #ccc; /* Añade un borde para resaltar los campos */
+    border-radius: 6px; /* Añade esquinas redondeadas */
+    padding: 0 10px; /* Añade espacio dentro del campo para texto */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+/* Estilo para el contorno del campo de entrada */
+.jss2.hangarOutlinedInput-notchedOutline {
+    padding: 0; /* Ajusta el padding del contorno */
+    border-width: 1px; /* Ajusta el ancho del borde */
+}
+
+/* Estilo para el texto del legend */
+.jss4.jss5 {
+    font-size: 0.75rem; /* Ajusta el tamaño del texto del legend */
+    padding: 0 5px; /* Ajusta el padding del legend */
+}
+
+/* Estilo mejorado para los botones de envío */
+.hangar-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5c88da;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos al pasar el cursor sobre los campos de entrada */
+.hangarInputBase-input:hover,
+.hangarInputBase-input:focus {
+    border-color: #5c88da;
+}
+
+/* Estilos al pasar el cursor sobre el botón de envío */
+.hangar-form input[type="submit"]:hover {
+    background-color: #4b6eab;
+}
+
+/* Estilo para el botón de "Login" */
+.hangarButton-root[name="login"] {
+    font-size: 24px; /* Ajusta el tamaño del texto del botón */
+    padding: 16px; /* Ajusta el espacio interno del botón */
+    margin-top: 32px; /* Ajusta el margen superior */
+    width: calc(100% - 16px); /* Ajusta el ancho del botón */
+}
+
+/* Estilo para el botón de "Register" */
+.hangarButton-root#registerButton {
+    font-size: 24px; /* Ajusta el tamaño del texto del botón */
+    padding: 16px; /* Ajusta el espacio interno del botón */
+    margin-top: 16px; /* Ajusta el margen superior */
+    width: calc(100% - 16px); /* Ajusta el ancho del botón */
+}
